@@ -2,6 +2,6 @@ FROM node:latest
 
 COPY server.js /usr/share/node/html
 
-EXPOSE 8080
+EXPOSE 80
 
 CMD ["node", "server.js"]
