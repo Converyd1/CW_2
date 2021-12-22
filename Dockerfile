@@ -1,7 +1,7 @@
 FROM node:latest
 
-COPY server.js /usr/share/node/html
+COPY server.js
 
-EXPOSE 80
+EXPOSE 80 443
 
 CMD ["node", "server.js"]
